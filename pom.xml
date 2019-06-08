@@ -1439,7 +1439,7 @@
     <assembly.file>src/main/assembly/hadoop-two-compat.xml</assembly.file>
     <audience-annotations.version>0.5.0</audience-annotations.version>
     <!-- end HBASE-15925 default hadoop compatibility values -->
-    <avro.version>1.7.7</avro.version>
+    <avro.version>1.9.0</avro.version>
     <commons-cli.version>1.4</commons-cli.version>
     <commons-codec.version>1.10</commons-codec.version>
     <!-- pretty outdated -->
@@ -1471,7 +1471,7 @@
     <log4j.version>1.2.17</log4j.version>
     <mockito-core.version>2.1.0</mockito-core.version>
     <!--Internally we use a different version of protobuf. See hbase-protocol-shaded-->
-    <external.protobuf.version>2.5.0</external.protobuf.version>
+    <external.protobuf.version>3.4.0</external.protobuf.version>
     <protobuf.plugin.version>0.5.0</protobuf.plugin.version>
     <thrift.path>thrift</thrift.path>
     <thrift.version>0.9.3</thrift.version>
