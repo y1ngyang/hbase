@@ -1441,7 +1441,7 @@
     <!-- end HBASE-15925 default hadoop compatibility values -->
     <avro.version>1.7.7</avro.version>
     <commons-cli.version>1.4</commons-cli.version>
-    <commons-codec.version>1.10</commons-codec.version>
+    <commons-codec.version>1.13</commons-codec.version>
     <!-- pretty outdated -->
     <commons-io.version>2.5</commons-io.version>
     <commons-lang3.version>3.6</commons-lang3.version>
