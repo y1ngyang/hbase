@@ -33,7 +33,7 @@
 
 
   <properties>
-    <spark.version>2.1.1</spark.version>
+    <spark.version>2.4.7</spark.version>
     <!-- The following version is in sync with Spark's choice
          Please take caution when this version is modified -->
     <scala.version>2.11.8</scala.version>
