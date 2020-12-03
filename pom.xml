@@ -1449,7 +1449,7 @@
     <disruptor.version>3.3.6</disruptor.version>
     <!-- Do not use versions earlier than 3.2.2 due to a security vulnerability -->
     <collections.version>4.1</collections.version>
-    <httpclient.version>4.5.3</httpclient.version>
+    <httpclient.version>4.5.13</httpclient.version>
     <httpcore.version>4.4.6</httpcore.version>
     <metrics-core.version>3.2.1</metrics-core.version>
     <jackson.version>2.9.5</jackson.version>
