@@ -1523,7 +1523,7 @@
     <scala.maven.version>3.2.2</scala.maven.version>
     <scalatest.maven.version>1.0</scalatest.maven.version>
     <spotbugs.version>3.1.0-RC3</spotbugs.version>
-    <wagon.ssh.version>2.12</wagon.ssh.version>
+    <wagon.ssh.version>3.4.3</wagon.ssh.version>
     <xml.maven.version>1.0.1</xml.maven.version>
     <hbase-thirdparty.version>2.0.0</hbase-thirdparty.version>
     <!-- General Packaging -->
