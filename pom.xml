@@ -1471,7 +1471,7 @@
     <log4j.version>1.2.17</log4j.version>
     <mockito-core.version>2.1.0</mockito-core.version>
     <!--Internally we use a different version of protobuf. See hbase-protocol-shaded-->
-    <external.protobuf.version>2.5.0</external.protobuf.version>
+    <external.protobuf.version>3.15.5</external.protobuf.version>
     <protobuf.plugin.version>0.5.0</protobuf.plugin.version>
     <thrift.path>thrift</thrift.path>
     <thrift.version>0.9.3</thrift.version>
