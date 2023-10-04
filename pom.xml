@@ -1433,7 +1433,7 @@
     <!-- These must be defined here for downstream build tools that don't look at profiles.
          They ought to match the values found in our default hadoop profile, which is
          currently "hadoop-2.0". See HBASE-15925 for more info. -->
-    <hadoop.version>${hadoop-two.version}</hadoop.version>
+    <hadoop.version>3.0.0</hadoop.version>
     <hadoop.guava.version>11.0.2</hadoop.guava.version>
     <compat.module>hbase-hadoop2-compat</compat.module>
     <assembly.file>src/main/assembly/hadoop-two-compat.xml</assembly.file>
@@ -2477,7 +2477,7 @@
         <module>hbase-hadoop2-compat</module>
       </modules>
       <properties>
-        <hadoop.version>${hadoop-two.version}</hadoop.version>
+        <hadoop.version>3.0.0</hadoop.version>
         <compat.module>hbase-hadoop2-compat</compat.module>
         <assembly.file>src/main/assembly/hadoop-two-compat.xml</assembly.file>
         <!--This property is for hadoops netty. HBase netty
@@ -2753,7 +2753,7 @@
         <module>hbase-hadoop2-compat</module>
       </modules>
       <properties>
-        <hadoop.version>${hadoop-three.version}</hadoop.version>
+        <hadoop.version>3.0.0</hadoop.version>
         <!--Use this compat module for now. TODO: Make h3 one if we need one-->
         <compat.module>hbase-hadoop2-compat</compat.module>
         <assembly.file>src/main/assembly/hadoop-two-compat.xml</assembly.file>
