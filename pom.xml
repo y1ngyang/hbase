@@ -1428,13 +1428,13 @@
     <maven.min.version>3.0.4</maven.min.version>
     <java.min.version>${compileSource}</java.min.version>
     <!-- Dependencies -->
-    <hadoop-two.version>2.7.4</hadoop-two.version>
+    <hadoop-two.version>3.4.1</hadoop-two.version>
     <hadoop-three.version>3.0.0</hadoop-three.version>
     <!-- These must be defined here for downstream build tools that don't look at profiles.
          They ought to match the values found in our default hadoop profile, which is
          currently "hadoop-2.0". See HBASE-15925 for more info. -->
     <hadoop.version>${hadoop-two.version}</hadoop.version>
-    <hadoop.guava.version>11.0.2</hadoop.guava.version>
+    <hadoop.guava.version>32.0.0-android</hadoop.guava.version>
     <compat.module>hbase-hadoop2-compat</compat.module>
     <assembly.file>src/main/assembly/hadoop-two-compat.xml</assembly.file>
     <audience-annotations.version>0.5.0</audience-annotations.version>
@@ -1444,7 +1444,7 @@
     <commons-codec.version>1.10</commons-codec.version>
     <!-- pretty outdated -->
     <commons-io.version>2.5</commons-io.version>
-    <commons-lang3.version>3.6</commons-lang3.version>
+    <commons-lang3.version>3.18.0</commons-lang3.version>
     <commons-math.version>3.6.1</commons-math.version>
     <disruptor.version>3.3.6</disruptor.version>
     <!-- Do not use versions earlier than 3.2.2 due to a security vulnerability -->
@@ -2482,7 +2482,7 @@
         <assembly.file>src/main/assembly/hadoop-two-compat.xml</assembly.file>
         <!--This property is for hadoops netty. HBase netty
              comes in via hbase-thirdparty hbase-shaded-netty-->
-        <netty.hadoop.version>3.6.2.Final</netty.hadoop.version>
+        <netty.hadoop.version>3.9.8.Final</netty.hadoop.version>
       </properties>
       <dependencyManagement>
         <dependencies>
@@ -2759,7 +2759,7 @@
         <assembly.file>src/main/assembly/hadoop-two-compat.xml</assembly.file>
         <!--This property is for hadoops netty. HBase netty
              comes in via hbase-thirdparty hbase-shaded-netty-->
-        <netty.hadoop.version>3.10.5.Final</netty.hadoop.version>
+        <netty.hadoop.version>3.9.8.Final</netty.hadoop.version>
       </properties>
      <dependencyManagement>
        <dependencies>
